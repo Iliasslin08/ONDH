@@ -75,8 +75,8 @@ function Total() {
       </div>
       <button onClick={handleCalculate}>Calculer</button>
       <div className="total">
-        <h3>Total: {total.toFixed(2)} km</h3>
-        <h3>Total par personne (4): {(total / 4).toFixed(2)} km</h3>
+        <h3>Total: {total.toFixed(2)} DHH</h3>
+        <h3>Total par personne (4): {(total / 4).toFixed(2)} DH</h3>
       </div>
     </div>
   );
